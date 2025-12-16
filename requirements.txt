@@ -1,0 +1,11 @@
+numpy
+pandas
+rasterio
+rioxarray
+xarray
+geopandas
+scipy
+statsmodels
+scikit-learn
+pyyaml
+matplotlib
