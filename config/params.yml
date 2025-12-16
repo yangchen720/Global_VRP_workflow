@@ -1,0 +1,18 @@
+period:
+  start_year: 2000
+  end_year: 2022
+
+grid:
+  target_resolution_deg: 0.05
+  crs: EPSG:4326
+
+vrp:
+  habitat_quantile: 0.90
+  truncate_vrpad: true
+
+mask:
+  exclude_classes: ["water", "built_up"]
+
+lisp:
+  variogram_model: exponential
+  local_window_factor: 2.0
